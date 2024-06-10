@@ -13,4 +13,8 @@ router.get('/search',
     tagController.getAllBySearch
 )
 
+router.get('/statistics',
+    tagController.getTagsStatistics
+)
+
 module.exports = router
